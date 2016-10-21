@@ -1,29 +1,31 @@
 {
-  "name": "pebble-watchface-base",
-  "author": "MakeAwesomeHappen",
-  "version": "1.0.0",
-  "keywords": ["pebble-app"],
-  "private": true,
-  "dependencies": {},
-  "pebble": {
-    "displayName": "pebble-watchface-base",
-    "uuid": "2a292db8-9710-4e89-b357-94724c78f2bb",
-    "sdkVersion": "3",
-    "enableMultiJS": true,
-    "targetPlatforms": [
-      "aplite",
-      "basalt",
-      "chalk",
-      "diorite"
+    "author": "MakeAwesomeHappen",
+    "dependencies": {},
+    "keywords": [
+        "pebble-app"
     ],
-    "watchapp": {
-      "watchface": false
+    "name": "pebble-watchface-base",
+    "pebble": {
+        "displayName": "pebble-watchface-base",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "dummy"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "2a292db8-9710-4e89-b357-94724c78f2bb",
+        "watchapp": {
+            "watchface": false
+        }
     },
-    "messageKeys": [
-      "dummy"
-    ],
-    "resources": {
-      "media": []
-    }
-  }
+    "version": "1.0.0"
 }
